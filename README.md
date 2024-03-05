@@ -24,8 +24,9 @@ Template containts styling inside. If I had time I would add the use of scss and
 
 Product widget is the parent component. I have chosen to have a separate folders for models and util functions used.
 
-As the API was returning named colors a color util was created to map the hex colours from figma instead for accurate colouring. 
+As the API was returning named colors a color util was created to map the hex colours from figma instead for accurate colouring.
 
+`ColorChooser` component unit tests can be found in src/tests/unit. Tests will not run as jest setup is not finished.
 
 ```
 
